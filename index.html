@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mia 的自介與學習規劃</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="非本科畢業的設計師，隨緣做網頁設計師進而對寫code產生興趣。期許自己能再多學習、再進步多一點，可以用程式碼寫出自己的腦洞創作，也能提升本業收入能力。簡曰：實力跟錢，我全都要。" />
+    <meta name="author" content="M.Y" />
+    <meta name="copyright" content="M.Y">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <style>
+        *, ::after, ::before {
+            box-sizing: border-box;
+            margin: 0; 
+        }
+        html,body {
+            padding: 0;
+            margin: 0; 
+            height: 100%;
+            overflow-x: hidden;
+            font-size: 16px;
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 150%;
+            letter-spacing: 0.075rem;
+        }
+        header {
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: 600;
+            color: #E9A181;
+            background-color: #2E3243;
+        }
+        header span {
+            font-family: 'Montserrat', sans-serif;
+        }
+        h6 { 
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #E9A181;
+            font-weight: 600;
+        }
+        p, li {
+            color: #C4C4C4;
+        }
+        .container {
+            width: 100%;
+            padding: 30px 15px;
+            background-color: #393E54;
+        }
+        .intro > li {
+            margin-bottom: 20px;
+        }
+        .intro ul li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            height: auto;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        table td {
+            text-align: center;
+            font-size: 16px;
+            vertical-align: top;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        table.pricing table td {
+            padding: 20px 0;
+        }
+        table.pricing td.heading {
+            font-weight: bold;
+            color: #8d9b92;
+        }
+        table.pricing td.d-none {
+            width: 16%;
+        }
+        table.pricing td.pricing {
+            border-top: 1px solid #2E3243;
+            background: #8d9b92;
+        }
+        table.pricing td.title {
+            border-top: 1px solid #2E3243;
+            color: #8d9b92;
+        }
+        @media (min-width: 768px) {
+            .d-block {
+                display: none;
+            }
+            table.pricing td table td {
+                height: 100%;
+                min-height: 69px;
+            }
+            table.pricing tr.d-none td {
+                padding: 20px 0;
+            }
+        }
+        @media (max-width: 767px) {
+            .d-none {
+                display: none;
+            }
+            table.pricing td.w-100 {
+                display: block;
+                width: 100%;
+                padding: 15px;
+                border: 1px solid #2E3243;
+                border-collapse: collapse;
+            }
+            table.pricing td.w-100:not(:last-of-type) {
+                border-bottom: none;
+            }
+            table.pricing table td {
+                text-align: left;
+                padding: 10px 0;
+            }
+
+            table.pricing td.title:before {
+                display: inline-block;
+                content: attr(data-th) ":";
+                margin-right: 10px;
+                font-size: 16px;
+                color: #E9A181;
+            }
+
+            table.pricing table td.empty {
+                padding: 20px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header><span>Mia</span> 的自介與學習規劃</header>
+    <div class="container">
+        <ul class="intro">
+            <li>
+                <h6>兩百字內的個人簡介</h6>
+                <p>非本科畢業的設計師，隨緣做網頁設計師進而對寫code產生興趣。期許自己能再多學習、再進步多一點，
+                    可以用程式碼寫出自己的腦洞創作，也能提升本業收入能力。<br/>簡曰：實力跟錢，我全都要。</p>
+            </li>
+            <li>
+                <h6>為什麼想成為工程師 ( 請以自我期許帶入：前端、後端、或全端工程師 )</h6>
+                <ul style="list-style-type: decimal;">
+                    <li>寫code對我而言是剛剛好的平衡，不排斥也不會說很喜歡，但可以作為長時間相處的工作內容</li>
+                    <li>因本身是所見及所得所開始的網頁設計師，故前端視為優先考量</li>
+                    <li>若轉成工程師，工作的選擇更多更廣，薪水也能大幅提升</li>
+                    <li>或許可以因為這樣的職業、工作內容，遇到各式各樣有想法、有創意的奇才</li>
+                </ul>
+            </li>
+            <li>
+                <h6>為了成為工程師，曾經做過什麼努力？</h6>
+                <p>業餘時間使用線上課程學習、下班後向公司內的工程師請教學習 React</p>
+            </li>
+            <li>
+                <h6>對於工程師的職業想像是什麼？</h6>
+                <p>有電、有網路，給一台筆電就能工作。</p>
+            </li>
+            <li>
+                <h6>如果參與這個計畫，會怎麼安排學習時間？</h6>
+                <p>請參閱下表。</p>
+            </li>
+            <li>
+                <h6>如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？</h6>
+                <ul style="list-style-type: decimal;">
+                    <li>Google / stackflow</li>
+                    <li>向公司的工程師請教</li>
+                    <li>彭彭學院的社群</li>
+                    <li>於網路上發問</li>
+                </ul>
+            </li>
+            <li>
+                <h6>想要對我們說的事情？</h6>
+                <p>希望能錄取，並成為學院的轉型成功案例之一，謝謝。</p>
+            </li>
+        </ul>
+        <table class="pricing" style="margin-top: 30px;">
+            <tbody>
+                <tr class="d-none">
+                    <td></td>
+                    <td class="heading">一 ~ 五</td>
+                    <td class="heading">六</td>
+                    <td class="heading">日</td>
+                </tr>
+                <tr>
+                    <td class="d-none">
+                        <table>
+                            <tr>
+                                <td class="pricing">3-6 pm.</td>
+                            </tr>
+                            <tr>
+                                <td class="pricing">6-9 pm.</td>
+                            </tr>
+                            <tr>
+                                <td class="pricing">9 pm.-12 am.</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="w-100">
+                        <table>
+                            <tr class="d-block">
+                                <td class="heading">一~五</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="3-6 pm.">X</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="6-9 pm.">X</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="9 pm.-12 am.">O</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="w-100">
+                        <table>
+                            <tr class="d-block">
+                                <td class="heading">六</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="3-6 pm.">O</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="6-9 pm.">O</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="9 pm.-12 am.">O</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="w-100">
+                        <table>
+                            <tr class="d-block">
+                                <td class="heading">日</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="3-6 pm.">O</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="6-9 pm.">O</td>
+                            </tr>
+                            <tr>
+                                <td class="title" data-th="9 pm.-12 am.">O</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
